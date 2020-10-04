@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorMainBackground</color>
+    <color name="colorPrimaryDark">#202022</color>
+    <color name="colorAccent">@color/colorButtonText</color>
+
+
+    <color name="colorMainBackground">#121212</color>
+    <color name="colorHeading">#DEffffff</color>
+    <color name="colorTitle">#DEffffff</color>
+    <color name="colorEditTextLetters">#D81B60</color>
+    <color name="colourEditTextHint">#8D8185</color>
+    <color name="colorButtonText">#304FFE</color>
+    <color name="colorText">#DEffffff</color>
+</resources>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/Reuser"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/advent_pro_bold"
+            android:gravity="center_horizontal"
+            android:text="Register User"
+            android:textAlignment="center"
+            android:textColor="@color/colorHeading"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/registerprofilepic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/ic_pofile_pic" />
+
+        <TextView
+            android:id="@+id/dtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/advent_pro_semibold"
+            android:text="User Name"
+            android:textColor="@color/colorTitle"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_screen_edittext_background"
+            android:hint="Enter the User Name"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/dpmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/advent_pro_semibold"
+            android:text=" E-mail"
+            android:textColor="@color/colorTitle"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_screen_edittext_background"
+            android:hint="Enter Your Mail"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/dispassword_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/advent_pro_semibold"
+            android:text="password"
+            android:textColor="@color/colorTitle"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_screen_edittext_background"
+            android:hint="Create Your Password"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btregister"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_bckground"
+            android:text="Register"
+            android:textColor="@color/colorTitle" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
